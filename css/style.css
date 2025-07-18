@@ -1,0 +1,579 @@
+  
+  /* Base font size for consistency across devices */
+html {
+  font-size: 18px;
+}
+
+/* Prevent browser from shrinking everything */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #000;
+}
+  
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Hero Section */
+    .hero {
+      background: url('./images/hero.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .navbar {
+      padding: 20px;
+    }
+    
+    .main-title {
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: 6px;
+    margin-top: -140px;   /* Pulls it higher */
+    margin-bottom: 0.5px; /* Reduces space below */
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+  .hero-text {
+  margin-top: -90px; /* removes unnecessary gap above */
+  text-align: center;
+  color: #fff;
+  }
+
+  .hero h2 {
+  color: #fff !important;
+  }
+
+ .about-hero {
+  max-width: 800px;
+  margin: 30px auto;
+  margin-top: -90px; /* removes unnecessary gap above */
+  text-align: center;
+  padding: 30px 25px;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  color: #fff;
+  background: linear-gradient(to right, #6fb1fc, #4364f7);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.about-hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.about-hero p {
+  margin: 0;
+  color: #f0f0f0;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  padding: 0 15px;
+  color: #444;
+}
+
+
+.hero-content h2 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+}
+
+
+  .sub-title {
+    font-size: 8rem;
+    font-weight: 650;
+    margin-top: -10px;   /* Pulls it closer to the h1 */
+    color: #fff;
+  }
+
+  .subtext {
+  font-size: 2rem;     /* ⬅️ Increase from default (usually 1rem) */
+  font-weight: 600;      /* ⬅️ Make it bold */
+  color: #fff;
+  margin-top: 0.5rem;
+ }
+
+  .tagline {
+    font-size: 30rem;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+  .subtag {
+    font-size: 1.2rem;
+    color: #eee;
+    text-shadow: 1px 1px 2px #000;
+  }
+
+  .hero, .navbar h1, .hero-text h2, .hero-text p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+  }
+
+  /* Section Headings */
+   section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+
+  /* About, Tips */
+  .about, .tips, .contact {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* Essentials */
+  .essentials {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to left, #fbc2eb, #a6c1ee);
+}
+
+.essentials h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.essentials-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  background: #fff;
+  padding: 20px;
+  width: 180px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-8px);
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  margin: 0;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+
+  .tips-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+
+  .tips-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2e3c3e;
+  }
+
+  .tips-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .tip-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 260px;
+    transition: transform 0.3s ease;
+  }
+
+  .tip-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .tip-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .tip-card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.4;
+  }
+
+  /* Cards */
+  .cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /* Slideshow */
+.slideshow {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.slideshow h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  height: 350px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background: #000;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  max-width: 90%;
+  text-align: center;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+  /* Contact */
+  .contact p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-text h2 {
+      font-size: 1.8rem;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+
+    .essentials-list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .item {
+      width: 100px;
+    }
+
+    .item img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .cards-container {
+      grid-template-columns: 1fr; /* One column on small screens */
+    }
+
+    .card img {
+      height: 200px;
+    }
+
+    .slide {
+      height: 200px;
+    }
+
+    .slideshow-container {
+      height: 200px;
+    }
+
+    .contact p {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+@media (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+    body {
+      font-size: 1rem;
+    }
+  }
+
+  .footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f8f8; /* Optional: light background */
+  font-size: 14px;
+  color: #555;
+}
+  
+/* Responsive Fixes for Mobile Devices */
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .hero-text h2,
+  .about-hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p,
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .essentials-list,
+  .tips-container,
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .essentials-list .item,
+  .tips-container .tip-card,
+  .cards-container .card {
+    width: 90%;
+    max-width: 300px;
+    margin: 0.5rem 0;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+/* === Fix for hero headings on mobile === */
+@media (max-width: 768px) {
+  .hero .navbar h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 2rem;   /* 👈 This line adds space from the top */
+    margin-bottom: 1rem;
+  }
+}
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .about-hero h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+/* === Fix location cards alignment on mobile === */
+@media (max-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* === Improve layout sizing on desktop === */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p,
+  .about-hero p,
+  .about p,
+  .tips-section p,
+  .essentials p,
+  .contact p {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+  }
+
+  .tip-card p {
+    font-size: 1rem;
+  }
+
+  .item h3 {
+    font-size: 1rem;
+  }
+}
